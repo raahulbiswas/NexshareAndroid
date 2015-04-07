@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@+id/main_parent_view"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/noeventView"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="60dp"
+        >
+        <TextView
+            android:id="@+id/noeventdoe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="70sp"
+            android:textStyle="bold"
+            android:text="NO EVENT FOUND"
+            android:textColor="#5acd8b"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="30dp"/>
+
+        <Button
+            android:id="@+id/gobackButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="370dp"
+            android:layout_marginLeft="220dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="30dp"
+            android:text="Try Again"
+            android:background="@null"
+            android:textColor="#c0392b"/>
+
+
+        </RelativeLayout>
+
+    <RelativeLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/confirmView"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="60dp"
+        >
+
+            <TextView
+                android:id="@+id/confirmevent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:text="Confirm Event"
+                android:textColor="#5acd8b"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="30dp"/>
+
+            <TextView
+                android:id="@+id/eventname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:textColor="#656565"
+                android:layout_marginTop="80dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="30dp"/>
+
+
+            <TextView
+                android:id="@+id/eventdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="#656565"
+                android:layout_marginTop="140dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="30dp"
+                />
+
+            <Button
+                android:id="@+id/confirmButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="370dp"
+                android:layout_marginLeft="150dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="30dp"
+                android:text="Confirm"
+                android:background="@null"
+                android:textColor="#2ecc71"/>
+
+            <Button
+                android:id="@+id/declineButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="370dp"
+                android:layout_marginLeft="220dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="30dp"
+                android:text="Decline"
+                android:background="@null"
+                android:textColor="#c0392b"/>
+
+    </RelativeLayout>
+
+<RelativeLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/joinView"
+    android:adjustViewBounds="true"
+        android:layout_marginTop="60dp">
+
+        <TextView android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Please Enter Your Access Code"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="#5acd8b"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="30dp"/>
+
+
+        <EditText
+            android:id="@+id/accessCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="150dp"
+            android:text="Access Code"
+            android:textColor="#7f8c8d">
+
+        </EditText>
+        <Button
+            android:id="@+id/joinEventButton"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Join Event"
+            android:textSize="22dp"
+            android:background="@drawable/rectanglered"
+            android:layout_gravity="bottom"
+            android:layout_alignParentBottom="true"
+            />
+
+
+</RelativeLayout>
+
+    </FrameLayout>

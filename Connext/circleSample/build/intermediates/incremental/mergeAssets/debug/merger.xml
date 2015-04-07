@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="1.3"><source path="/Users/raahulbiswas/AndroidStudioProjects/Connext/circleSample/build/intermediates/exploded-aar/com.pascalwelsch.holocircularprogressbar/library/1.3/assets"/></dataSet><dataSet config="main"><source path="/Users/raahulbiswas/AndroidStudioProjects/Connext/circleSample/src/main/assets"/></dataSet><dataSet config="debug"><source path="/Users/raahulbiswas/AndroidStudioProjects/Connext/circleSample/src/debug/assets"/></dataSet></merger>

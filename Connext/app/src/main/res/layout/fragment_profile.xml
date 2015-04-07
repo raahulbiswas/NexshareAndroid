@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <View
+        android:id="@+id/profileBackground"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/rectangle"
+
+        />
+
+    <com.example.connext.connext.RoundedImageView
+        android:id="@+id/profilePic"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="70dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/personName"
+
+        android:layout_gravity="center_horizontal|top"
+        android:textStyle="normal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="280dp"
+        android:textSize="30sp"
+        android:text="test"
+        android:textColor="#5acd8b"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/personJob"
+        android:layout_gravity="center_horizontal|top"
+        android:text="tesfskdkljdsjlfdslkfdlksdt"
+        android:textColor="#5acd8b"
+        android:textSize="36sp"
+        android:maxLines = "1000"
+        android:textStyle="bold"
+        android:scrollbars = "vertical"
+        android:gravity="center"
+        android:layout_below="@+id/profileBackground"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="106dp" />
+
+</RelativeLayout>
